@@ -1,16 +1,11 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello Vue 2 + Vite" />
+    <Todos />
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue';
-export default {
-  components: {
-    HelloWorld,
-  },
-};
+<script setup>
+  import Todos from './components/Todos.vue'
 </script>
 
 <style>
